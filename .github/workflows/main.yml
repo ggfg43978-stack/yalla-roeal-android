@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Extract project
-        run: unzip -q Yalla_Roeal_Android_CloudBuild_v5.zip -d extracted
+        run: unzip -q Yalla_Roeal_Android_CloudBuild_v6.zip -d extracted
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
